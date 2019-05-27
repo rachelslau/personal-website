@@ -7,6 +7,10 @@ class App extends Component {
     return (
       <div className="background">
         <h>COFFEE</h>
+        <div className="button-box">
+          <Link className="home-button" to='/'>home</Link>
+          <Link className="home-button next-button" to='/photography'>photography</Link>
+        </div>
       </div>
     );
   }

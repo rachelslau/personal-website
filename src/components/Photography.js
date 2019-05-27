@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="background">
-        <div className="photo-left">
+        <div className="left photo-left">
           <h>PHOTOGRAPHY</h>
           <br/><br/>
           <p className="text">shot with iPhone 8+</p>
@@ -14,9 +14,9 @@ class App extends Component {
           <button className="photo-button text">landscape</button>
           <button className="photo-button text">people</button>
           <button className="photo-button text">misc.</button>
-          <div className="button-box photography-buttons">
-            <Link className="home-button" to='/'>home</Link>
-          </div>
+        </div>
+        <div className="button-box photo-box">
+          <Link className="home-button" to='/'>home</Link>
         </div>
         <div className="photo-right">
         </div>
