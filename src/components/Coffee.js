@@ -9,7 +9,7 @@ class App extends Component {
         <h>COFFEE</h>
         <div className="button-box">
           <Link className="home-button" to='/'>home</Link>
-          <Link className="home-button next-button" to='/photography'>photography</Link>
+          <Link className="home-button next-button" to='/photography/landscape'>photography</Link>
         </div>
       </div>
     );

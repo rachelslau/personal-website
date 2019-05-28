@@ -6,6 +6,7 @@ body, html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     overflow: auto;
+    cursor: default;
 }
 
 .background {
@@ -46,7 +47,7 @@ body, html {
     background-color: white;
     text-align: left;
     width: 45%;
-    height: 50px;
+    height: 40px;
     padding-left: 2.5%;
     padding-right: 2.5%;
 }
@@ -148,11 +149,11 @@ body, html {
 .iproject-button {
     display: inline-block;
     width: 275px;
-    height: 300px;
+    height: 325px;
     background-color: #ACC8E5;
     border: none;
     margin-right: 25px;
-    margin-top: 0;
+    margin-bottom: 25px;
     text-align: center;
     color: black;
     transition: 1s ease;
@@ -165,9 +166,14 @@ body, html {
     cursor: pointer;
 }
 
+.iproject-img {
+    margin-top: 15px;
+}
+
 .iproject-text {
     font-family: 'Oranienbaum', serif;
     font-size: 25px;
+    margin-top: 0;
 }
 
 /**************** COFFEE ****************/
@@ -188,7 +194,9 @@ body, html {
     margin: auto;
     background-color: #ACC8E5;
     border: none;
+    color: black;
     transition: .5s ease;
+    text-decoration: none;
 }
 
 .photo-button:hover {
@@ -197,11 +205,26 @@ body, html {
     cursor: pointer;
 }
 
-.photo-box {
-    padding-left: 2.5%;
-    width: 48%;
+.photo-button-on {
+    color: white;
+}
+
+.photo-button-on:hover {
+    cursor: default;
 }
 
 .photo-right {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
     overflow-y: scroll;
+}
+
+/**************** INDIVIDUAL PHOTOS ****************/
+
+.iphoto {
+    display: inline-block;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
 }

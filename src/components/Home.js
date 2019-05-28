@@ -16,7 +16,7 @@ class App extends Component {
             &nbsp;•&nbsp;
             <Link className="home-route-button text" to='/coffee'>coffee</Link>
             &nbsp;•&nbsp;
-            <Link className="home-route-button text" to='/photography'>photography</Link>
+            <Link className="home-route-button text" to='/photography/landscape'>photography</Link>
           </p>
         </div>
       </div>
