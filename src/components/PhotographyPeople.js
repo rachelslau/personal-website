@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../Overall.css';
 import { Link } from 'react-router-dom';
 import Photo from './IndividualPhotos.js';
+import GraceG from './pictures/photos/people/gracegriffiths.jpg';
+import RayEm from './pictures/photos/people/rayem.jpg';
 
 class App extends Component {
   render() {
@@ -20,6 +22,8 @@ class App extends Component {
           <Link className="home-button" to='/'>home</Link>
         </div>
         <div className="photo-right">
+          <Photo picture={GraceG} description="grace-griffiths"/>
+          <Photo picture={RayEm} description="ray-em"/>
         </div>
       </div>
     );

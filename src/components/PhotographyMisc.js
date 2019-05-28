@@ -8,6 +8,7 @@ import BuJo from './pictures/photos/misc/newyearbulletjournal.jpg';
 import Bathtub from './pictures/photos/misc/3cepink.jpg';
 import Yalis from './pictures/photos/misc/rainyyalis.jpg';
 import Rose from './pictures/photos/misc/rosegarden.jpg';
+import HomeSF from './pictures/photos/misc/sfhome.jpg';
 
 class App extends Component {
   render() {
@@ -32,6 +33,7 @@ class App extends Component {
           <Photo picture={Yalis} description="yalis"/>
           <Photo picture={Bathtub} description="bathtub"/>
           <Photo picture={Rose} description="rose-garden"/>
+          <Photo picture={HomeSF} description="home-sf" />
         </div>
       </div>
     );
