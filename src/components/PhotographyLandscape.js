@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import '../Overall.css';
 import { Link } from 'react-router-dom';
 import Photo from './IndividualPhotos.js';
-import LadyBug from './pictures/photos/ladybug.jpg';
-import Cafenated from './pictures/photos/cafenated.jpg';
-import LittleTokyo from './pictures/photos/littletokyo.jpg';
+import LittleTokyo from './pictures/photos/landscape/littletokyo.jpg';
+import Tahoe from './pictures/photos/landscape/laketahoe.jpg';
 
 class App extends Component {
   render() {
@@ -23,9 +22,8 @@ class App extends Component {
           <Link className="home-button" to='/'>home</Link>
         </div>
         <div className="photo-right">
-          <Photo picture={LadyBug} description="lady-bug"/>
-          <Photo picture={Cafenated} description="cafenated"/>
           <Photo picture={LittleTokyo} description="little-tokyo"/>
+          <Photo picture={Tahoe} description="lake-tahoe"/>
         </div>
       </div>
     );

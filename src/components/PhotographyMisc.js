@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import '../Overall.css';
 import { Link } from 'react-router-dom';
 import Photo from './IndividualPhotos.js';
-import LadyBug from './pictures/photos/ladybug.jpg';
-import Cafenated from './pictures/photos/cafenated.jpg';
-import LittleTokyo from './pictures/photos/littletokyo.jpg';
+import LadyBug from './pictures/photos/misc/ladybug.jpg';
+import Cafenated from './pictures/photos/misc/cafenated.jpg';
+import BuJo from './pictures/photos/misc/newyearbulletjournal.jpg';
+import Bathtub from './pictures/photos/misc/3cepink.jpg';
+import Yalis from './pictures/photos/misc/rainyyalis.jpg';
+import Rose from './pictures/photos/misc/rosegarden.jpg';
 
 class App extends Component {
   render() {
@@ -25,7 +28,10 @@ class App extends Component {
         <div className="photo-right">
           <Photo picture={LadyBug} description="lady-bug"/>
           <Photo picture={Cafenated} description="cafenated"/>
-          <Photo picture={LittleTokyo} description="little-tokyo"/>
+          <Photo picture={BuJo} description="bullet-journal"/>
+          <Photo picture={Yalis} description="yalis"/>
+          <Photo picture={Bathtub} description="bathtub"/>
+          <Photo picture={Rose} description="rose-garden"/>
         </div>
       </div>
     );
