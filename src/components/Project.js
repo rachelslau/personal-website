@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Project from './IndividualProjects.js';
 import Hack from './pictures/projects/hackathon.png';
 import World from './pictures/projects/world.png';
+import Tea from './pictures/projects/morning-tea.png';
+import TwentyFour from './pictures/projects/24.png';
 
 class App extends Component {
   render() {
@@ -31,12 +33,12 @@ class App extends Component {
               name="Build Your Own World" />
             <Project
               url="https://rachelslau.github.io/morning-tea/"
-              picture={Hack}
+              picture={Tea}
               description="morning-tea"
               name="Morning Tea" />
             <Project
               url="https://rachelslau.github.io/p5/empty-example"
-              picture={Hack}
+              picture={TwentyFour}
               description="24-game"
               name="24 Points Game" />
           </div>
