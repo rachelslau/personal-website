@@ -132,6 +132,16 @@ body, html {
     margin: 5%;
 }
 
+.contact-button-box {
+    display: block;
+    text-align: center;
+}
+
+.contact-buttons {
+    display: inline-block;
+    margin: 5%;
+}
+
 /**************** PROJECTS ****************/
 
 .project-title {

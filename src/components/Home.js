@@ -19,7 +19,7 @@ class App extends Component {
               &nbsp;•&nbsp;
               <Link className="home-route-button" to='/photography/landscape'>photography</Link>
             </p>
-            <a href="rachelslau.github.io" className="home-route-button old-versions">v1</a>
+            <a href="https://rachelslau.github.io" className="home-route-button old-versions">v1</a>
           </div>
       </div>
     );

@@ -3,6 +3,10 @@ import '../Overall.css';
 import { Link } from 'react-router-dom';
 import Vertical from './pictures/about/vertical.jpg';
 import Horizontal from './pictures/about/horizontal.jpg';
+import Mail from './pictures/about/email.png';
+import GitHub from './pictures/about/github.png';
+import LinkedIn from './pictures/about/linkedin.png';
+import Instagram from './pictures/about/instagram.png';
 
 class App extends Component {
   render() {
@@ -23,6 +27,20 @@ class App extends Component {
             In addition to dedicating countless hours debugging my spelling errors and listening to advice podcasts, I enjoy thrift shopping, bullet journaling, and binge watching Friends (at 1.3x speed).<br/><br/>
             Feel free to reach out through email or stalk me on social media!
           </p>
+          <div className="contact-button-box">
+            <a href="mailto:rachellau@berkeley.edu">
+              <img className="contact-buttons" src={Mail} alt="email-link" width="27.5px" height="27.5px"/>
+            </a>
+            <a href="https://github.com/rachelslau">
+              <img className="contact-buttons" src={GitHub} alt="github-link" width="27.5px" height="27.5px"/>
+            </a>
+            <a href="https://linkedin.com/in/rachel-s-lau">
+              <img className="contact-buttons" src={LinkedIn} alt="linkedin-link" width="25px" height="25px"/>
+            </a>
+            <a href="https://instagram.com/raurlau">
+              <img className="contact-buttons" src={Instagram} alt="instagram-link" width="25px" height="25px"/>
+            </a>
+          </div>
         </div>
       </div>
     );
