@@ -13,9 +13,9 @@ class App extends Component {
     return (
       <div className="background">
         <div className="left about-left">
-          <img className="about-vertical" src={Vertical} alt="vertical picture" width="250vw"/>
+          <img className="about-vertical" src={Vertical} alt="vertical" width="250vw"/>
           <h className="about-title">ABOUT<br/>ME</h>
-          <img className="about-horizontal" src={Horizontal} alt="hoizontal picture" width="400vw"/>
+          <img className="about-horizontal" src={Horizontal} alt="hoizontal" width="400vw"/>
         </div>
         <div className="button-box">
           <Link className="home-button" to='/'>home</Link>

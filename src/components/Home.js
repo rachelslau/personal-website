@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="home-screen">
-        <img className="home-picture" src={Profile} width="100%"/>
+        <img className="home-picture" src={Profile} alt="profile" width="100%"/>
         <div className="background-text">
           <h className="home-title">RACHEL LAU</h>
           <br/>
